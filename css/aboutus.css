@@ -1,0 +1,19 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right ,#9be15d, #00e3ae );
+}
+img{
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    z-index: 4;
+    top: -29px;
+    right: 418px;
+    
+}

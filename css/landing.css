@@ -1,0 +1,89 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+
+  line-height: 1.7;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #555;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #9be15d, #00e3ae);
+}
+
+h1 {
+  font-family: 'Megrim', sans-serif;
+  font-size: 6rem;
+  color: white;
+  transform: skewY(-5deg);
+  text-align: center;
+  position: relative;
+  word-spacing: 3px;
+  margin-bottom: 0;
+}
+h5{
+  font-family: 'Montserrat';
+  color: white;
+  transform: skewY(-5deg);
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0;
+
+}
+
+
+.container {
+  width: 95rem;
+  margin: 0 auto;
+}
+
+.cards-container {
+  margin-top: 8rem;
+  display: flex;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 5rem;
+  height: 15rem;
+  transform: skewX(-20deg);
+  display: inline-flex;
+  margin-right: 5rem;
+  width: 50%;
+  transition: all 0.2s;
+}
+
+.card__title-box {
+  background: linear-gradient(to bottom, #9be15d, #00e3ae);
+  margin-right: auto;
+  display: block;
+  align-items: center;
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.card__title {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: white;
+  font-size: 3.25rem;
+  transform: skewX(20deg);
+  text-align: center;
+
+}
+
+.card:hover {
+  transform: skewX(-20deg) scale(1.08);
+  box-shadow: 0 3rem 8rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.cus-icon{
+  margin: 0 4%;
+
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
